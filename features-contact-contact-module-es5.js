@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n  <h1 class=\"main-heading\">Contact</h1>\r\n\r\n  <div [ngClass]=\"routeAnimationsElements\" class=\"sub-section\">\r\n    <a href=\"mailto:stlouisparkmtb@gmail.com\">stlouisparkmtb@gmail.com</a>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"container\">\r\n    <h1 class=\"main-heading\">Contact</h1>\r\n\r\n    <div [ngClass]=\"routeAnimationsElements\" class=\"sub-section\">\r\n        <a mat-button href=\"mailto:stlouisparkmtb@gmail.com\"><mat-icon>email</mat-icon> stlouisparkmtb@gmail.com</a>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -121,7 +121,8 @@ var ContactComponent = /** @class */ (function () {
     function ContactComponent() {
         this.routeAnimationsElements = _core_core_module__WEBPACK_IMPORTED_MODULE_2__["ROUTE_ANIMATIONS_ELEMENTS"];
     }
-    ContactComponent.prototype.ngOnInit = function () { };
+    ContactComponent.prototype.ngOnInit = function () {
+    };
     ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: "slpmtb-contact",
